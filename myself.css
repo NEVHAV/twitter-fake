@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+
+body {
+    margin: 0;
+    background-color: #DDEAF4;
+    /*font-family: Helvetica Neue;*/
+}
+
+.header {
+    background-color: #54A4FF;
+}
+
+.top-header {
+    position: static;
+    background-color: #54A4FF;
+    height: 50px;
+    margin-top: 0;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 320px;
+    height: 600px;
+    width: 1200px;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.card-body {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100px !important;
+    width: 1000px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.input-group-prepend {
+    margin-top: 50px;
+    height: 40px;
+    width: 450px;
+    border-style: inset groove;
+    border-width: 1px;
+}
+
+input {
+    text-indent: 10px;
+}
+
+.input-pass {
+    margin-top: 30px !important;
+}
+
+.register {
+    margin-top: 30px;
+}
+
+.form-check{
+    margin-top: 30px;
+}
+
+.form-check-input {
+    background-color: #54A4FF;
+}
+
+.btn-login {
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    background-color: #54A4FF;
+    font-weight: bold;
+    color: white;
+}
+
+.card-footer {
+    position: absolute;
+    background-color: #D9E6EF;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 1194px;
+    border-style: groove;
+    border-width: 3px;
+    border: transparent;
+}
+
+.footer {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.footer a {
+    text-decoration: underline;
+}
+
+.card-1 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 250px;
+    width: 400px;
+    border-width: 3px;
+}
+
+.card-2 {
+    /*background-color: white;*/
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 900px;
+    border-width: 3px;
+}
+
+.card-post {
+    background-color: #CAE8FD;
+    height: 80px !important;
+    width: 900px !important;
+    margin-left: 0px;
+}
+
+.card-3 {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 400px;
+    width: 400px;
+    border-width: 3px;
+}
+
+.icon {
+    color: #E3E3E3;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    border-color: #E3E3E3;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.user-icon {
+    color: #E3E3E3;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    border-color: #E3E3E3;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.user-icon-new {
+    color: #E3E3E3;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    border-color: #E3E3E3;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.user-info {
+    margin-top: 40px;
+}
+
+.input-post {
+    margin-top: 20px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.user-mail {
+    color: #9D9D9D !important;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #1DA1F2 !important;
+  font-weight: bold !important;
+}
+
+.input-group-myself {
+    border-color: #7AC7F7 !important;
+    border-width: 1px !important;
+}
+
+.card-tweet {
+    background-color: white;
+    min-height: 150px;
+    max-height: 450px;
+    width: 900px;
+    margin-left: 0;
+    border-color: #DDEAF4 !important;
+    border-width: 1px !important;
+    box-shadow: 0px 2px #DDEAF4 inset;
+}
+
+.tweet-ava {
+    margin-left: 0px;
+}
+
+.tweet-post {
+    margin-top: 10px;
+}
+
+.tweet-header {
+    font-weight: bold;
+}
+
+.tweet-mail {
+    color: #9D9D9D !important;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.follow {
+    margin-left: 30px;
+    margin-top: 25px; 
+}
+
+.follow-tweet {
+    font-weight: bold;
+    color: #768694;
+}
+
+.follow-count {
+    font-weight: bold;
+    color: #54A4FF;
+}
+
+p.tweet {
+    max-height:15em;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.love {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.love-count {
+    font-weight: bold;
+}
+
+.newest-info {
+    margin-top: 25px;
+}
+
+.newest-header {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 20px;
+}
