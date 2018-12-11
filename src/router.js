@@ -3,8 +3,9 @@ import Router from 'vue-router'
 import Login from './views/Login.vue'
 import Timeline from './views/Timeline.vue'
 import Signup from './views/Signup.vue'
+import Profile from './views/Profile.vue'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
     mode: 'history',
@@ -29,6 +30,11 @@ export default new Router({
             path: '/signup',
             name: 'signup',
             component: Signup
+        },
+        {
+            path: '/profile',
+            name: 'profile',
+            component: Profile
         },
         {
             path: '/about',

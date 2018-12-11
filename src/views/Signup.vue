@@ -1,6 +1,6 @@
 <template>
     <body>
-    <title>Twter-Register</title>
+    <title>Register</title>
     <nav class="navbar navbar-expand-lg top-header row">
         <div class="col-2"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,6 +53,7 @@
 
 <script>
     import axios from 'axios';
+    import router from "../router";
 
     export default {
         name: "Signup",
@@ -68,24 +69,17 @@
         },
         methods: {
             postNewUser() {
-                console.log(this.newUser);
                 axios
-                    .post('http://localhost:3000/api/users', {
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            'username': this.newUser.username,
-                            'email': this.newUser.email,
-                            'password': this.newUser.password,
-                            'password_confirmation': this.newUser.rePassword
-                        })
+                    .post('https://master-hieu.firebaseapp.com/v1/users', {
+                        name: this.newUser.username,
+                        password: this.newUser.password,
+                        email: this.newUser.email,
                     })
                     .then(response => {
-                        console.log(response);
-                        console.log('success')
+                       this.$router.push('Login');
                     })
                     .catch(error => {
+                        window.confirm("Signup unsuccesful!");
                         console.log('error')
                     })
             }
